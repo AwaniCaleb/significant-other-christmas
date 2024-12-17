@@ -1,0 +1,111 @@
+/* Small (SM): 0 - 576px */
+@media (max-width: 576px) {
+    /* Styles for SM */
+    #tribute-section .right-side {
+        max-height: 400px !important;
+    }
+}
+
+/* Medium (MD): 576px - 768px */
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Styles for MD */
+}
+
+/* Large (LG): 768px - 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Styles for LG */
+}
+
+/* Extra Large (XL): 992px - 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* Styles for XL */
+}
+
+/* Extra Extra Large (XXL): 1200px - 1400px */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    /* Styles for XXL */
+}
+
+/* Small (SM) and Medium (MD): 0 - 768px */
+@media (max-width: 768px) {
+    /* Styles for SM and MD */
+    #merry-christmas-section .right-side {
+        max-height: 400px;
+    }
+
+    #gallery-section .potrait-image {
+        min-height: 500px !important;
+    }
+
+    #gallery-section .landscape-image {
+        min-height: 300px !important;
+    }
+}
+
+/* Small (SM) and Large (LG): 0 - 992px */
+@media (max-width: 992px) {
+    /* Styles for SM, MD, and LG */
+}
+
+/* Small (SM) and Extra Large (LG): 0 - 992px */
+@media (max-width: 1200px) {
+    /* Styles for SM, MD, LG and XLG */
+}
+
+/* Medium (MD) and Large (LG): 576px - 992px */
+@media (min-width: 576px) and (max-width: 992px) {
+    /* Styles for MD and LG */
+}
+
+/* Large (LG) and Extra Large (XL): 768px - 1200px */
+@media (min-width: 768px) and (max-width: 1200px) {
+    /* Styles for LG and XL */
+    .left-side {
+        /* height: 100vh; */
+    }
+}
+
+/* Extra Large (XL) and Extra Extra Large (XXL): 992px - 1400px */
+@media (min-width: 992px) and (max-width: 1400px) {
+    /* Styles for XL and XXL */
+}
+
+/* Medium (MD) and up: 576px and above */
+@media (min-width: 576px) {
+    /* Styles for MD and above */
+}
+
+/* Large (LG) and up: 768px and above */
+@media (min-width: 768px) {
+    /* Styles for LG and above */
+}
+
+/* Extra Large (XL) and up: 992px and above */
+@media (min-width: 992px) {
+    /* Styles for XL and above */
+}
+
+/* Extra Extra Large (XXL) and up: 1200px and above */
+@media (min-width: 1200px) {
+    /* Styles for XXL and above */
+}
+
+/* Up to Medium (MD): 0 - 768px */
+@media (max-width: 768px) {
+    /* Styles for SM and MD */
+}
+
+/* Up to Large (LG): 0 - 992px */
+@media (max-width: 992px) {
+    /* Styles for SM, MD, and LG */
+}
+
+/* Up to Extra Large (XL): 0 - 1200px */
+@media (max-width: 1200px) {
+    /* Styles for SM, MD, LG, and XL */
+}
+
+/* Up to Extra Extra Large (XXL): 0 - 1400px */
+@media (max-width: 1400px) {
+    /* Styles for SM, MD, LG, XL, and XXL */
+}

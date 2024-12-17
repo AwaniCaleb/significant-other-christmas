@@ -1,0 +1,49 @@
+@import url("./media-queries.css");
+
+.font-mynerve {
+    font-family: "Mynerve", cursive;
+}
+
+.h-vh {
+    height: 100vh !important;
+}
+
+.bg-image {
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.backdrop-3 {
+    backdrop-filter: brightness(30%) !important;
+}
+
+#merry-christmas-section .right-side {
+    background-color: #e5e5e5;
+}
+
+#merry-christmas-section .right-side,
+#tribute-section .right-side {
+    height: 100vh;
+}
+
+.letter-container {
+    background: #fffbe6;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    color: #4a3f35;
+}
+
+#reasons-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+#gallery-section [d-f="image-cover"] {
+    min-height: 600px;
+}
